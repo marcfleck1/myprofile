@@ -124,6 +124,7 @@ class GenerateConfig {
         // We also assume that geoserver is by default served
         // by an http connector on localhost, port 8380.
         def geoserverTarget = "http://localhost:8380"
+        def geoserveretuTarget = "http://localhost:8480"
         
         // Change the proxy.mapping value below to match your setup !
         new PropertyUpdate(
@@ -146,6 +147,7 @@ class GenerateConfig {
 <entry key="extractorapp"  value="proxyDefaultTarget/extractorapp/" />
 <entry key="geonetwork"    value="proxyDefaultTarget/geonetwork/" />
 <entry key="geoserver"     value="geoserverTarget/geoserver/" />
+<entry key="geoserveretu"  valut="geoserveretuTarget/geoserveretu/" />
 <entry key="geowebcache"   value="proxyDefaultTarget/geowebcache/" />
 <entry key="geofence"      value="proxyDefaultTarget/geofence/" />
 <entry key="header"        value="proxyDefaultTarget/header/" />
