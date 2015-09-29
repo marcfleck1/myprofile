@@ -28,7 +28,7 @@ shared.instance.name=geOrchestra
 # and shared.server.port to 443
 # if your SDI is configured accordingly
 
-shared.server.name=georchestra.mydomain.org
+shared.server.name=geo-webgis.unistra.fr
 shared.url.scheme=http
 
 # sets the public address of your homepage.
@@ -44,7 +44,7 @@ shared.homepage.url=@shared.url.scheme@://@shared.server.name@/
 # May be one of the following: fr, es, en, de
 # Default value: en
 
-shared.language=en
+shared.language=fr
 
 
 # --------------------------------------------------
@@ -60,7 +60,7 @@ shared.header.height=90
 # GEONETWORK
 # --------------------------------------------------
 
-shared.geonetwork.language=eng
+shared.geonetwork.language=fre
 
 # --------------------------------------------------
 # LDAP
@@ -84,7 +84,7 @@ shared.ldapUrl=ldap://@shared.ldap.host@:@shared.ldap.port@
 # shared.ldap.admin.dn is the query filter for the ldap admin user
 # shared.ldap.admin.password is the ldap admin user password
 
-shared.ldap.baseDn=dc=georchestra,dc=org
+shared.ldap.baseDn=dc=geo-webgis,dc=unistra,dc=fr
 shared.ldap.userSearchBaseDN=ou=users
 shared.ldap.groupSearchBaseDN=ou=groups
 shared.ldap.admin.dn=cn=admin,@shared.ldap.baseDn@
